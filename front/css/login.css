@@ -16,20 +16,19 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
-    /* padding: 0 2rem; */
+   
 }
 
 .img{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding-left: 7rem;
 	justify-content: center;
 	align-items: center;
 	
 }
 .half{
-	background-color:#ff5e00d6;
+	background-color:#ff5e06;
 }
 
 .login-content{
@@ -40,7 +39,7 @@ body{
 }
 
 .img img{
-	width: 600px;
+	width: 400px;
 }
 .title{
 	font-size: 5px;

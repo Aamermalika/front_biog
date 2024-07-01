@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(3, 3, 3);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+.profile-container {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    height: 400px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.close-button {
+    width: 40px;
+    cursor: pointer;
+}
+
+.profile-content h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.profile-content p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin: 0 0 20px;
+}
+
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-button, .update-button {
+    background: #000000;
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    gap: 5px;
+    width: 150px;
+    height: 40px;
+   
+}
