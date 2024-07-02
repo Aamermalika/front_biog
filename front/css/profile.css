@@ -72,3 +72,9 @@ body {
     height: 40px;
    
 }
+.edit-button:hover{
+    background: #ff5e06;
+}
+.update-button:hover{
+    background: #ff5e06;
+}
