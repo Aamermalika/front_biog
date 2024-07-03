@@ -27,6 +27,7 @@ nav{
 .logo{
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 .usr_img{
     width: 70px;
